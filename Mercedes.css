@@ -124,9 +124,6 @@ footer {
     color: #00d2be;
 }
 
-/* ==========================================
-   DRIVERS PAGE
-   ========================================== */
 
 .drivers-header {
     text-align: center;
@@ -245,7 +242,7 @@ footer {
     letter-spacing: 0.5px;
 }
 
-/* Grid 4 statistik */
+
 .stats-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -280,7 +277,6 @@ footer {
     text-transform: uppercase;
 }
 
-/* Dua card cerita berdampingan */
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -344,5 +340,14 @@ footer {
 
     .about-header h1 {
         font-size: 26px;
+    }
+}
+@media (max-width: 768px) {
+    .hero {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .box {
+        height: 350px;
     }
 }
